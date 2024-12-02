@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Letter Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer async></script>
+    <link rel="icon" href="favicon-32x32.png">
+</head>
+<body>
+    <div class="mainBox" id="mainBox">
+        <div class="leftBox">
+            <h1 class="stayUpdated">Stay Updated!</h1>
+            <p>Join 60,000+ product managers receiving monthy updates on:</p>
+            <img src="icon-list.svg" alt="checkmark" class="check"><span class="checkSpan">Product discovery and building what matters</span>
+            <img src="icon-list.svg" alt="checkmark" class="check"><span class="checkSpan">Measuring to ensure updates are a success</span>
+            <img src="icon-list.svg" alt="checkmark" class="check"><span class="checkSpan">And much more</span>
+            <p class="emailTitle">Email address</p><span class="display-none" id="display-none">valid email required</span>
+            <input type="email" name="email" id="email" required placeholder="email@company.com" >
+            <button class="button" id="button">Subscribe to monthly newsletter</button>
+        </div>
+        <div class="rightBox">
+            <img src="illustration-sign-up-desktop.svg" alt="list icon" class="rightBoxImg">
+        </div>
+
+    </div>
+    <div class="thanksBox" id="thanksBox">
+        <img src="icon-success.svg" alt="success" class="successImg">
+        <h1 class="thanksH1">Thanks for Subscribing!</h1>
+        <p class="thanksP">A confimation email has been sent to<br><span id="yourEmail">test@email.com</span>. Please open it and click <br> the button inside to confrim your subscription</p>
+        <button class="dismissButton" id="dismissButton">Dismiss message</button>
+    </div>
+</body>
+</html>
